@@ -16,7 +16,7 @@ defaults:
     values:
       title: NickNguyen's blog
 
-description: Stylish Jekyll Theme
+description: NickNguyen's blog 
 author:
   name: NickNguyen
   email: nhnghe@gmail.com
