@@ -1,8 +1,8 @@
-{% if site.disqus %}
+{% if site.disqus.shortname %}
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = '{{ site.disqus. }}';
+    var disqus_shortname = '{{ site.disqus.shortname }}';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
