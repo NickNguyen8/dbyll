@@ -1,8 +1,19 @@
 ---
 layout: default
 ---
-{% include post.html %}
 
-{% if site.disqus and page.comments %}
-    {% include disqus.html %}
+{% include post.html %} {% include fb_comments.html %} {% if page.fbcomments %}
+<hr />
+<h4>Comments</h4>
+<div
+  class="fb-comments"
+  data-href="http://nicknguyen8.github.io{{ page.url }}"
+  data-colorscheme="dark"
+  data-num-posts="4"
+  data-width="706"
+></div>
 {% endif %}
+<!--
+{% if site.disqus and page.comments %} {% include
+disqus.html %} {% endif %}
+-->
